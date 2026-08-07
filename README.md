@@ -1,0 +1,2 @@
+# WxStationPro-privacy
+Privacy Policy
