@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wx Station Pro Support</title>
+  <title>Support — Wx Station Pro</title>
   <style>
     :root { color-scheme: light dark; }
     body {
@@ -13,43 +13,56 @@
       margin: 0 auto;
       padding: 2rem 1.25rem 3rem;
     }
-    h1 { font-size: 1.75rem; margin: 0 0 0.5rem; }
-    p { margin: 0.75rem 0; }
+    h1 { font-size: 1.75rem; margin: 0 0 0.35rem; }
+    h2 { font-size: 1.1rem; margin: 0 0 0.5rem; }
+    p { margin: 0.6rem 0; }
     a { color: #0a66c2; }
+    .sub { opacity: 0.75; margin: 0 0 1.25rem; }
     .card {
       border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
       border-radius: 12px;
       padding: 1rem 1.15rem;
-      margin-top: 1.25rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.7rem 1rem;
+      border-radius: 10px;
+      background: #007aff;
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: 600;
     }
     .muted { opacity: 0.75; font-size: 0.95rem; }
   </style>
 </head>
 <body>
   <h1>Wx Station Pro Support</h1>
-  <p class="muted">Airport weather for pilots — a ForeFlight companion weather station app.</p>
+  <p class="sub">Help, feedback, and bug reports. No login required.</p>
 
   <div class="card">
-    <p><strong>Need help?</strong></p>
-    <p>
-      Email
-      <a href="mailto:besteeler2014@gmail.com?subject=Wx%20Station%20Pro%20Support">besteeler2014@gmail.com</a>
-    </p>
-    <p class="muted">
-      TestFlight testers: please include your device model, iOS version, and steps to reproduce.
-      Screenshots or screen recordings help a lot.
-    </p>
+    <h2>Email support</h2>
+    <p>Questions, bug reports, or feature ideas — email Brian directly:</p>
+    <p><a class="btn" href="mailto:theberhart82@gmail.com?subject=Wx%20Station%20Pro%20Support">Email theberhart82@gmail.com</a></p>
+    <p class="muted">Include your device model, iOS version, and steps to reproduce. Screenshots or screen recordings help a lot.</p>
   </div>
 
   <div class="card">
-    <p><strong>Privacy</strong></p>
-    <p>
-      <a href="https://theberhart.github.io/WxStationPro-privacy/">Privacy Policy</a>
-    </p>
+    <h2>TestFlight testers</h2>
+    <p>You can also send feedback from the TestFlight app (screenshot + notes). Those reports appear in App Store Connect.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p><a href="https://theberhart.github.io/WxStationPro-privacy/">Privacy Policy</a></p>
   </div>
 
   <p class="muted" style="margin-top: 2rem;">
-    © Wx Station Pro. Not for operational use — always verify with official FAA / NWS sources before flight.
+    Wx Station Pro is non-operational and not for flight planning or navigation.
+    Always verify with official FAA and NWS sources before any flight decision.<br /><br />
+    Developer: Brian Erhart<br />
+    App: Wx Station Pro
   </p>
 </body>
 </html>
